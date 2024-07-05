@@ -1,63 +1,40 @@
-#red{
-    color:red;
+body{
+    background-color:moccasin;
+    text-align: center;
+    font-family: 'Caveat', cursive;
 }
 
-#blue{
-    color:blue;
+.allProj{
+    background-color: lightpink;
+    border:white solid 5px;
+    margin:1%;
+    padding:5px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 15%;
+    width:25%;
 }
 
-#orange{
-    color:orange;
-}
-#green{
-    color:green;
+footer{
+text-align: right;
+padding: 10px;
 }
 
-#yellow{
-    color:yellow;
-}
-/* 
-#ID SELECTOR
-applies to elements based off CLASS ATTRIBUTE
-
-ie.) for TEXT not IMAGE, yellow literally stored in ID
-*/
-
-.color-title{
-    font-weight: normal;
-}
-/* 
-.CLASS SELECTOR
-applies to elements based off CLASS ATTRIBUTE
-
-ie.) for TEXT not IMAGE, color.title literally stored in class"
-*/
-
-img{
-    height: 200px;
-    width: 200px;
-}
-/* 
-ELEMENTAL SELECTOR
-applies to elements based off HTML tag
-
-ie.) img
-*/
-
-
-/* 
-UNIVERSAL SELECTOR
-applies to ALL elements, easiest
-
-*{
-    text-align: center
+@media (max-width: 680px) {
+    .allProj {
+        display:block;
+        width:auto;
+    }
 }
 
-
-ATTRIBUTE SELECTOR
-applies to ATTRIBUTE and VALUE, most specific and challenging
-
-li[value="4"]{
-  color:blue;
+.button{
+    cursor:pointer;
+    background-color: lightskyblue;
+    border:black solid 5px;
+    margin:1%;
+    padding:5px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:100%;
+    width:25%;
 }
-*/
